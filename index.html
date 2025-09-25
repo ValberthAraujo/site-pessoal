@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="site_lol" content="width=device-width, initial-scale=1.0">
+    <title> Página Principal | Bem-vindo! </title>
+    <link
+            rel="stylesheet"
+            href="./css/bootstrap.css"
+            >
+    <link
+            rel="stylesheet"
+            href="./css/meucss.css"
+            >
+</head>
+<body>
+
+<!-- Desktop -->
+
+  <div class="d-none d-lg-block">
+    <header>
+              <div class="px-3 py-2 text-bg-dark border-bottom">
+                <div class="container">
+                  <div class="d-flex">
+                    <div class="d-flex align-items-center justify-content-center me-auto | justify-content-lg-start">
+                      <form class="col-12 col-lg-auto me-2 mb-lg-0" role="search">
+                      <input type="search" class="form-control" placeholder="Pesquisar..."/>
+                      </form>
+                      <a href="#"><button type="button" class="btn btn-light text-dark flex-fill me-2">
+                        Entrar
+                      </button></a>
+                      <button type="button" class="btn btn-primary flex-fill">
+                        Cadastrar-se
+                      </button>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-end ms-auto | justify-content-lg-end">
+                      <ul class="nav col-12 col-lg-auto my-2 my-md-0 text-small">
+                        <li>
+                          <a href="#" class="nav-link text-secondary text-center">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M230.149,120.939L65.986,256.274c0,0.191-0.048,0.472-0.144,0.855c-0.094,0.38-0.144,0.656-0.144,0.852v137.041
+                              c0,4.948,1.809,9.236,5.426,12.847c3.616,3.613,7.898,5.431,12.847,5.431h109.63V303.664h73.097v109.64h109.629
+                              c4.948,0,9.236-1.814,12.847-5.435c3.617-3.607,5.432-7.898,5.432-12.847V257.981c0-0.76-0.104-1.334-0.288-1.707L230.149,120.939
+                              z" fill="gray"/>
+                              <path d="M457.122,225.438L394.6,173.476V56.989c0-2.663-0.856-4.853-2.574-6.567c-1.704-1.712-3.894-2.568-6.563-2.568h-54.816
+                              c-2.666,0-4.855,0.856-6.57,2.568c-1.711,1.714-2.566,3.905-2.566,6.567v55.673l-69.662-58.245
+                              c-6.084-4.949-13.318-7.423-21.694-7.423c-8.375,0-15.608,2.474-21.698,7.423L3.172,225.438c-1.903,1.52-2.946,3.566-3.14,6.136
+                              c-0.193,2.568,0.472,4.811,1.997,6.713l17.701,21.128c1.525,1.712,3.521,2.759,5.996,3.142c2.285,0.192,4.57-0.476,6.855-1.998
+                              L230.149,95.817l197.57,164.741c1.526,1.328,3.521,1.991,5.996,1.991h0.858c2.471-0.376,4.463-1.43,5.996-3.138l17.703-21.125
+                              c1.522-1.906,2.189-4.145,1.991-6.716C460.068,229.007,459.021,226.961,457.122,225.438z" fill="brown"/>
+                            </svg>
+                            Página Inicial
+                        </a>
+                        </li>
+                        <li>
+                          <a href="./templates/apps.html" class="nav-link text-white efeito-vibrar" onclick="mudar_cor('app')">
+                            <svg
+                              class="bi d-block mx-auto mb-1 apps"
+                              viewBox="0 0 24 24"
+                              width="24"
+                              height="24"
+                              xmlns="http://www.w3.org/2000/svg"
+                              id="app"
+                              fill="white"
+                            >
+                              <path d="M4 3h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v4h4V5H5zm-1 8h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1zm1 2v4h4v-4H5zm9-12h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v4h4V5h-4zm4 10h-5a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-2a1 1 0 0 1 2 0v1h4v-4z"/>
+                            </svg>
+                            Apps
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="nav-link text-danger">
+                            <svg
+                                    class="bi d-block mx-auto mb-1"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path d="M10 19H13V22H10V19ZM12 2C17.35 2.22 19.68 7.62 16.5 11.67C15.67 12.67 14.33 13.33 13.67 14.17C13 15 13 16 13 17H10C10 15.33 10 13.92 10.67 12.92C11.33 11.92 12.67 11.33 13.5 10.67C15.92 8.43 15.32 5.26 12 5C11.2044 5 10.4413 5.31607 9.87868 5.87868C9.31607 6.44129 9 7.20435 9 8H6C6 6.4087 6.63214 4.88258 7.75736 3.75736C8.88258 2.63214 10.4087 2 12 2Z" fill="red"/>
+                            </svg>
+                            Em breve...
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="nav-link text-danger">
+                            <svg
+                                    class="bi d-block mx-auto mb-1"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path d="M10 19H13V22H10V19ZM12 2C17.35 2.22 19.68 7.62 16.5 11.67C15.67 12.67 14.33 13.33 13.67 14.17C13 15 13 16 13 17H10C10 15.33 10 13.92 10.67 12.92C11.33 11.92 12.67 11.33 13.5 10.67C15.92 8.43 15.32 5.26 12 5C11.2044 5 10.4413 5.31607 9.87868 5.87868C9.31607 6.44129 9 7.20435 9 8H6C6 6.4087 6.63214 4.88258 7.75736 3.75736C8.88258 2.63214 10.4087 2 12 2Z" fill="red"/>
+                            </svg>
+                            Em breve...
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="nav-link text-danger">
+                            <svg
+                                    class="bi d-block mx-auto mb-1"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path d="M10 19H13V22H10V19ZM12 2C17.35 2.22 19.68 7.62 16.5 11.67C15.67 12.67 14.33 13.33 13.67 14.17C13 15 13 16 13 17H10C10 15.33 10 13.92 10.67 12.92C11.33 11.92 12.67 11.33 13.5 10.67C15.92 8.43 15.32 5.26 12 5C11.2044 5 10.4413 5.31607 9.87868 5.87868C9.31607 6.44129 9 7.20435 9 8H6C6 6.4087 6.63214 4.88258 7.75736 3.75736C8.88258 2.63214 10.4087 2 12 2Z" fill="red"/>
+                            </svg>
+                            Em breve...
+                          </a>
+                        </li>
+                      </ul>
+                      </div>
+                  </div>
+                </div>
+              </div>
+    </header>
+
+    <div class="container"></div>
+
+<script src="../js/bootstrap.bundle.js"></script>
+<script src="../js/meuscript.js"></script>
+<noscript> Por favor, ative os scripts da página </noscript>
+</body>
+</html>
