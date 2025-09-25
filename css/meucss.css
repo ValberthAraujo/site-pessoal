@@ -1,0 +1,32 @@
+@keyframes vibrar {
+    0%, 100% {transform: translate(0, 0);}
+    20% {transform: translate(-2px, -2px);}
+    40% {transform: translate(2px, -2px);}
+    60% {transform: translate(-2px, -2px);}
+    80% {transform: translate(2px, -2px);}
+}
+
+@keyframes transicao_azul_svg {
+    0%, 100% { }
+    40% { fill: rgba(0, 0, 255, 0.16);}
+    80% { fill: blue; }
+}
+
+@keyframes transicao_preto_nome {
+    0%, 100% { }
+    40% { color: rgba(108, 117, 125, 0.3); }
+    80% { color: rgb(108, 117, 125); }
+}
+
+.efeito-vibrar:active {
+    transform:scale(0.80);
+}
+
+.efeito-vibrar:hover {
+    animation: vibrar 0.3s linear;
+}
+
+.apps {
+    animation: transicao_azul 1s ease;
+}
+
