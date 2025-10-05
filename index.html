@@ -5,41 +5,42 @@
     <meta name="site_pessoal" content="width=device-width, initial-scale=1.0">
     <title> Página Principal | Bem-vindo! </title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/custom_css.css" rel="stylesheet" />
 </head>
 <body>
-<header>
-  <div class="px-3 py-2 text-bg-dark border-bottom mb-3">
-    <div class="container d-flex align-items-center justify-content-between flex-wrap gap-3">
-      <input type="search" class="form-control w-25" placeholder="Pesquisar..." />
-      <nav id="navegação" class="nav d-flex justify-content-center gap-3">
-        <a id="apps" class="nav-link text-white text-center">
-          <img src="assets/images/home_activated.svg" width="24" height="24" alt="Home">
-          <div>Página Inicial</div>
-        </a>
-        <a href="views/apps.html" id="apps" class="nav-link text-white text-center">
-          <img src="assets/images/apps_deactivated.svg" width="24" height="24" alt="Apps">
-          <div>Apps</div>
-        </a>
-        <a href="#" class="nav-link text-danger text-center">
-          <img src="assets/images/coming_soon.svg" width="24" height="24" alt="Em breve">
-          <div>Em breve...</div>
-        </a>
-        <a href="#" class="nav-link text-danger text-center">
-          <img src="assets/images/coming_soon.svg" width="24" height="24" alt="Em breve">
-          <div>Em breve...</div>
-        </a>
-        <a href="#" class="nav-link text-danger text-center">
-          <img src="assets/images/coming_soon.svg" width="24" height="24" alt="Em breve">
-          <div>Em breve...</div>
-        </a>
-      </nav>
-      <div class="d-flex gap-2">
-        <button type="button" class="btn btn-light text-dark">Entrar</button>
-        <button type="button" class="btn btn-primary">Cadastrar-se</button>
+    <header>
+      <div class="px-3 py-2 text-bg-dark navbar-custom border-bottom mb-3">
+        <div class="container d-flex align-items-center justify-content-between flex-wrap gap-3">
+          <input type="search" class="form-control w-25" placeholder="Pesquisar..." />
+          <div class="d-flex">
+            <button type="button" class="btn btn-light custom-btn-login m-2">Entrar</button>
+            <button type="button" class="btn btn-primary custom-btn-register m-2">Cadastrar-se</button>
+          </div>
+          <nav id="navegação" class="nav-masthead d-flex justify-content-center gap-3">
+            <a class="nav-link active text-white text-center">
+              <img src="assets/images/home_activated.svg" width="24" height="24" alt="Home">
+              <div class="text-active">Página Inicial</div>
+            </a>
+            <a href="views/apps.html" class="nav-link text-white text-center">
+              <img src="assets/images/apps_deactivated.svg" width="24" height="24" alt="Apps">
+              <div>Apps</div>
+            </a>
+            <a href="#" class="nav-link text-danger text-center">
+              <img src="assets/images/coming_soon.svg" width="24" height="24" alt="Em breve">
+              <div>Em breve...</div>
+            </a>
+            <a href="#" class="nav-link text-danger text-center">
+              <img src="assets/images/coming_soon.svg" width="24" height="24" alt="Em breve">
+              <div>Em breve...</div>
+            </a>
+            <a href="#" class="nav-link text-danger text-center">
+              <img src="assets/images/coming_soon.svg" width="24" height="24" alt="Em breve">
+              <div>Em breve...</div>
+            </a>
+          </nav>
+        </div>
       </div>
-    </div>
-  </div>
-</header>
+    </header>
 
 <script src="assets/js/bootstrap.min.js"></script>
 </body>
