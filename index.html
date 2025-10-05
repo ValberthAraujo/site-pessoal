@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="site_pessoal" content="width=device-width, initial-scale=1.0">
+    <meta name="site_pessoal" content="width=device-width, initial-scale=1">
     <title> Página Principal | Bem-vindo! </title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/custom_css.css" rel="stylesheet" />
@@ -10,8 +10,11 @@
 <body>
     <header>
       <div class="px-3 py-2 text-bg-dark navbar-custom border-bottom mb-3">
-        <div class="container d-flex align-items-center justify-content-between flex-wrap gap-3">
-          <input type="search" class="form-control w-25" placeholder="Pesquisar..." />
+        <div class="container-fluid d-flex align-items-center justify-content-between flex-wrap gap-3">
+          <form class="d-flex align-items-center" role="search">
+            <input type="search" class="form-control w-100 m-2" placeholder="Pesquisar..." />
+            <img src="../assets/images/search.svg" class="custom-search m-1" width="40" height="40" alt="search">
+          </form>
           <div class="d-flex">
             <button type="button" class="btn btn-light custom-btn-login m-2">Entrar</button>
             <button type="button" class="btn btn-primary custom-btn-register m-2">Cadastrar-se</button>
