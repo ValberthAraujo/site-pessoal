@@ -1,4 +1,16 @@
-/* CSS da barra de navegação */
+/* Main/Global */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #313131;
+}
+
+
+/* Barra de navegação */
+
+.custom-border {
+    border-bottom: 5px solid #626262; /* cor personalizada */
+}
 
 .navbar-custom {
   background-color: #050A30;
@@ -57,3 +69,32 @@
 }
 
 
+/* Customizações Opcionais */
+
+.custom-background-gray {
+  background-color: #626262;
+}
+
+.custom-text-white {
+  color: #fff;
+}
+
+.custom-text-white-bold {
+  color: #fff;
+  font-weight: bold;
+}
+
+.custom-text-gray-title {
+  color: #616161;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.custom-btn-github {
+  background-color: #050A30;
+  color: #fff;
+  border: none;
+  width: 100%;
+  height: auto;
+}
